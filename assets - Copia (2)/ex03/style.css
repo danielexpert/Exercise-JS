@@ -1,0 +1,7 @@
+body{
+    background: #07bcc1;
+  }
+  .container{
+    border: 1px solid black;
+    height: 100vh;
+  }
