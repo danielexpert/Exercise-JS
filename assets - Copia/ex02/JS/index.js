@@ -10,8 +10,8 @@ function changeColor(){
       
       hexcode += hex_numbers[random_index]
     }
-    document.getElementsByTagName("span").innerHTML  
+    document.getElementById("hex-code").innerHTML  
       = hexcode;
     document.getElementsByTagName("body")[0].style.background =  "#" + hexcode;
    
-}
+  }
