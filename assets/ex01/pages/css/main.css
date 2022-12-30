@@ -1,0 +1,36 @@
+body{
+    background: #137579;
+  }
+
+.container{
+    border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes{
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gold;
+    background-color: #f4edea;
+    border: 10px solid #f4d1ae;
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+     font-size: 1.5rem;   
+    }
+}
+
