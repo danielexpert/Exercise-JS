@@ -1,7 +1,35 @@
 body{
     background: #07bcc1;
   }
-  .container{
+.container{
+    width: 95%;
+    height: 80vh;
+    display: flex;
     border: 1px solid black;
-    height: 100vh;
   }
+
+  .quotes{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    background-color: #f4edea;
+    border: 10px solid rgba(182, 100, 23, 0.726);
+  }
+
+    .quotes p, .quotes h3{
+      font-size: 1.5rem;
+  }
+
+@media(max-width:480px){
+  .quotes p, .quotes h3{
+    font-size: 1rem;
+}
+}
+  
